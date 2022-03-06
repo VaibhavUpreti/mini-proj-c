@@ -82,3 +82,43 @@ Logs & Output:
 
 
 
+# Create a project to find sum of digits of a number until a single digit is occurred (without using recursion or iterative (loop) statements).
+
+### About 
+goto statements are used in such cases
+
+### Flowchart 
+A chart to illustrate the algorithm- 
+
+![Screenshot](https://user-images.githubusercontent.com/85568177/156925994-5c7c48fa-6ced-4a70-bcac-f2b1e3357fbf.jpeg)
+
+
+### Code & Guide to run 
+Save this file as zombie.c in your folder
+```c
+```c
+#include<stdio.h>
+int  main(){
+int  sum=0;
+int  num;
+printf("-------------------------------------------------------------- \n");
+printf("Enter number: ");
+scanf("%d",  &num);
+jumpto:
+sum+=num%10;
+num/=10;
+if  (num==0){
+printf("Sum of the digits of the number= %d",  sum);
+return  0;
+}
+else
+goto  jumpto;
+}
+```
+
+## Output Screenshot
+
+Output Screenshot -
+![Screenshot 2022-03-06 at 7 11 01 PM](https://user-images.githubusercontent.com/85568177/156925970-38dc8657-205b-45d4-9611-e78332a6e013.png)
+
+
