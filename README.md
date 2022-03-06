@@ -74,10 +74,11 @@ ps -ef | grep a.out
 
 ## Output Screenshot
 
-SS1- 
-Running the Zombie process
+Running the Zombie process:
+![Screenshot 2022-03-06 at 5 40 17 PM](https://user-images.githubusercontent.com/85568177/156922690-c0b52498-d2c2-42be-a99e-ba4143ff6488.png)
 
-SS2- 
-Logs
+Logs & Output:
+![Screenshot 2022-03-06 at 5 40 27 PM](https://user-images.githubusercontent.com/85568177/156922703-73245a91-cc88-4d45-8f8d-35a7a56c10e5.png)
+
 
 
